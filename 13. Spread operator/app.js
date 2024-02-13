@@ -70,13 +70,15 @@ console.log(obj3); // {x: 1, y: 2, z: 3}
 let arr = [1, 2, 3];
 let arr2 = [4, 5];
 
-let combineArr = [...arr, ...arr2];
-console.log(combineArr);
+arr = [...arr, ...arr2];
+console.log(arr); // [ 1, 2, 3, 4, 5 ]
+// -----------------------------
 
+// -----------------------------
 const user = {
   name: "Jen",
   age: 22,
 };
 
-let userClone = { ...user };
-console.log(userClone);
+const clonedUser = { ...user };
+console.log(clonedUser);
