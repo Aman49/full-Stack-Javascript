@@ -21,7 +21,7 @@ console.log(words);
 
 let arr = [1, 3, 5, 6, 8];
 let sum = 0;
-const adder = (sum, x) => sum + x;
+const adder = (x) => sum + x;
 
 arr.forEach(adder);
 console.log(sum);
